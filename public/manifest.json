@@ -1,0 +1,21 @@
+{
+  "name": "Limo - El Limón más Minimalista",
+  "short_name": "Limo",
+  "description": "Limo es un limón minimalista con una sonrisa :3 que se transforma en una experiencia terrorífica",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFEB3B",
+  "theme_color": "#FFEB3B",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "32x32",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+} 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="16" cy="16" r="15" fill="#FFEB3B" stroke="#FFD600" stroke-width="2"/>
+  <!-- Ojos minimalistas -->
+  <circle cx="12" cy="14" r="2" fill="#000000"/>
+  <circle cx="20" cy="14" r="2" fill="#000000"/>
+  <!-- Sonrisa :3 -->
+  <path d="M10 18 Q16 22 22 18" stroke="#000000" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg> 
