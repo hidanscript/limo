@@ -292,13 +292,13 @@ export default function Home() {
         {/* Mensaje de culpa permanente */}
         {showGuiltMessage && (
           <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 
-            p-8 rounded-xl shadow-xl text-xl font-bold z-50 backdrop-blur-sm
-            bg-black/95 text-red-500 border-4 border-red-700 max-w-3xl max-h-[80vh] overflow-y-auto
-            animate-fade-in guilt-message">
-            <p className="whitespace-pre-wrap leading-relaxed">
+            p-4 sm:p-8 rounded-xl shadow-xl text-lg sm:text-xl font-bold z-50 backdrop-blur-sm
+            bg-black/95 text-red-500 border-4 border-red-700 w-[90vw] sm:max-w-3xl max-h-[80vh] overflow-y-auto
+            animate-fade-in guilt-message mx-4">
+            <p className="whitespace-pre-wrap leading-relaxed tracking-wide">
               {guiltText}
             </p>
-            <p className="mt-8 text-center text-2xl text-red-400 animate-pulse">
+            <p className="mt-8 text-center text-xl sm:text-2xl text-red-400 animate-pulse px-4">
               {killCount === 0 
                 ? "Recarga la página si quieres intentar escapar de tu culpa..."
                 : `Has matado a Limo ${killCount + 1} veces. ¿Cuándo pararás?`}
